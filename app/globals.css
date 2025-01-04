@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+
+
+@font-face {  
+  font-family: 'BYekan';  
+  src: url('/BYekan.eot');  
+  src: local('BYekan'),  
+       local('b Yekan'),  
+       url('/BYekan.eot?#iefix') format('embedded-opentype'),  
+       url('/BYekan.woff') format('woff'),  
+       url('/BYekan.ttf') format('truetype'),  
+       url('/BYekan.svg#BYekan') format('svg');  
+  font-style: normal;  
+  font-weight: normal;  
+}
+
+
+html ,body{
   height: 100%;
   background-color: blueviolet;
+  font-family: 'BYekan'
 }
